@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b9214eae8c4accdfd3f201760c8deb6c",
+    "content-hash": "36cabd8882de6c1e5b688e6b403b1203",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1320,6 +1320,9 @@
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
                     }
+                },
+                "patches_applied": {
+                    "The locality.name data is missed in PlainFormater": "https://www.drupal.org/files/issues/locality-name-data-missed-plainformater-2881391-1.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
